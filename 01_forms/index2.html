@@ -2,90 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>HTML Practice</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        padding: 20px;
-      }
-      .section {
-        margin-bottom: 30px;
-      }
-      .underline {
-        text-decoration: underline;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
   <body>
-    <h1>Welcome Ashok please sit and do your daily HTML Practice</h1>
-
-    <div class="section">
-      <h2>Paragraphs and Formatting</h2>
+    <h1>HTMLForm</h1>
+    <h2>Login Form</h2>
+    <form action="/">
       <p>
-        This is a <strong>bold</strong> word and this is an <em>italic</em> one.
+        <div><label for="name" Name></label></div>
+        <input id="name" type="text" placeholder="Enter your name" />
       </p>
       <p>
-        This is an <u>underlined</u> phrase using the
-        <code>&lt;u&gt;</code> tag.
+        <div><label for="enail" Email></label></div>
+        <input id="Email" type="email" placeholder="Enter your email" />
       </p>
-      <p>Here's a line break<br />between these lines.</p>
-    </div>
-    <hr />
-    <div class="section">
-      <h2>Lists</h2>
-      <h3>Unordered List:</h3>
-      <ul>
-        <li>Apples</li>
-        <li>Oranges</li>
-        <li>Bananas</li>
-      </ul>
-      <h3>Ordered List:</h3>
-      <ol>
-        <li>Wake up</li>
-        <li>Code</li>
-        <li>Sleep</li>
-      </ol>
-    </div>
-
-    <div class="section">
-      <h2>Links and Images</h2>
-      <p>Visit <a href="https://www.google.com" target="_blank">Google</a>.</p>
-      <p>Here is a sample image:</p>
-      <img
-        src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s96-fcrop64=1,00000000ffffffff-rw"
-        alt="Google Image"
-      />
-    </div>
-
-    <div class="section">
-      <h2>Forms</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          placeholder="Enter your name"
-        /><br /><br />
-
-        <label for="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          placeholder="Enter your email"
-        /><br /><br />
-
-        <label for="message">Message:</label><br />
-        <textarea id="message" rows="4" cols="30"></textarea><br /><br />
-
-        <button type="submit">Submit</button>
-      </form>
-    </div>
-
-    <hr />
-
-    <footer>
-      <p>&copy; 2025 Ashok. All rights reserved.</p>
-    </footer>
+      <p>
+        <div><label for="mobilenumber" Mobile number></label></div>
+        <input id="mobilenumber" type="number" placeholder="Enter your mobilenumber" />
+      </p>
+      
+      <p>
+        <div><label for="password" Password></label></div>
+        <input id="Password" type="tel" placeholder="Enter your password" />
+      </p>
+      <button>Reset</button>
+      <br>
+      <button>Submit</button>
+    </form>
   </body>
 </html>
