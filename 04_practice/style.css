@@ -1,0 +1,71 @@
+.html {
+    background-color: darkolivegreen;
+    color: crimson;
+}
+
+#html {
+    background-color: burlywood;
+    color: aqua;
+}
+
+.html.html {
+    background-color: grey;
+    color: cornflowerblue;
+}
+
+li {
+    font-weight: 700;
+    font-size: 32px;
+    background-color: rgb(178, 178, 76);
+
+}
+
+li {
+    background-color: pink;
+}
+
+
+
+.html {
+    color: #E5542E;
+}
+
+.css {
+    color: #1C76B9;
+}
+
+.js {
+    color: brown;
+}
+
+.react {
+    color: green;
+}
+
+.tailwind {
+    color: rgb(191, 34, 157);
+}
+
+[ashok="coder"] {
+    font-size: 30px;
+    font-family: 'Courier New';
+    background-color: orange;
+}
+
+h1:hover {
+    color: blue;
+}
+
+h2:hover {
+    background-color: cornsilk;
+    color: orangered;
+}
+
+h2 {
+    color: darkred;
+    background-color: rosybrown;
+}
+
+.pushpa {
+    background-color: aqua;
+}
