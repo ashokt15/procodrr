@@ -1,0 +1,31 @@
+:root {
+    font-size: 20px;
+}
+
+h1 {
+    background-color: rgb(199, 168, 168);
+    color: rgb(224, 97, 13);
+}
+
+p {
+    background-color: antiquewhite;
+    color: blue;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    background-color: blueviolet;
+    width: 50vw;
+    padding: 10vw;
+    margin: 10w;
+    border: 1w solid green;
+    font-size: 5rem;
+}
+
+div {
+    position: relative;
+    background-color: greenyellow;
+}

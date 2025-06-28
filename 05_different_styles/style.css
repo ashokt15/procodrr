@@ -1,0 +1,33 @@
+.parent {
+    background-color: crimson;
+}
+
+h1 {
+    background-color: chartreuse;
+}
+
+h2 {
+    background-color: aqua;
+    color: blue;
+}
+
+.one {
+    background-color: aquamarine;
+    color: rgb(119, 119, 212);
+    width: 300px;
+    padding: 25px;
+    margin: 40px;
+    border: 50px solid;
+    border-radius: 25px;
+    outline: 50px;
+}
+
+.two {
+    background-color: orange;
+    color: aqua;
+    width: 300px;
+    padding: 25px;
+    margin: 40px;
+    border: 50px solid;
+    border-radius: 100%;
+}
