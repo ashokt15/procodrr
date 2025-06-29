@@ -1,0 +1,41 @@
+.box {
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    text-emphasis-color: red;
+    /* background-position-x: 10px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://www.healthyfood.com/wp-content/uploads/2018/02/Basic-omelette-2000x1281.jpg);
+    transition: transform 200ms;
+
+    /* opacity: 1;
+    border-radius: 20px;
+    transform: scale(5);
+    transform-origin: 100% 100%;
+    transform: rotate(45deg);
+    
+    margin-top: 100px;
+    margin-left: 100px;
+    position: absolute;
+    left: 20%;
+    top: 20%; */
+    /* transform: translate(-50px, -50px); */
+    /* box-shadow: 10px 16px 8px 20px rgba(0, 0, 0, 0.4);
+    text-shadow: 2px 2px #ff0000; */
+}
+
+p {
+    color: chocolate;
+    background-color: bisque;
+}
+
+p:hover {
+    background-color: rgb(220, 204, 198);
+    font-size: 18px;
+}
+
+.box:hover {
+    background-color: blueviolet;
+    transform: translate(-50px, -50px) rotate(45deg) scale(1.5);
+}
