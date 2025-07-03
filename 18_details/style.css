@@ -1,0 +1,25 @@
+.box {
+    width: 300px;
+    padding: 10px;
+    border: 4px;
+
+}
+
+.box .firstbox {
+    color: blue;
+    background-color: lightblue;
+}
+
+.secondbox {
+    background-color: green;
+}
+
+p {
+    font-family: sans-serif;
+    color: blue;
+    background-color: beige;
+}
+
+#pushpa {
+    color: pink;
+}
