@@ -2,7 +2,7 @@ let n = parseInt(prompt("Enter a number to find all prime numbers up to N:"));
 let primes = [];
 
 if (n < 2) {
-    alert("There are no prime numbers less than 2.");
+    alert("2 is the first prime number.");
 } else {
     for (let i = 2; i <= n; i++) {
         let isPrime = true;
