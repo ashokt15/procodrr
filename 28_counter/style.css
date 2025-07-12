@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(185, 157, 105);
+    font-family: sans-serif;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-container {
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    color: blue;
+}
+
+#count {
+    font-size: 30px;
+}
+
+.buttons {
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    font-size: 25px;
+    color: skyblue;
+}
+
+button {
+    cursor: pointer;
+}
