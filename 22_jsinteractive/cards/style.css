@@ -1,0 +1,11 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    margin: 10px
+}

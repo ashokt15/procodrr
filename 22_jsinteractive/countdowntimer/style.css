@@ -1,0 +1,18 @@
+setInterval {
+    background-color: blue;
+    color: rgb(20, 225, 225);
+    font-family: "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.countdown {
+    font-size: 3rem;
+    padding: 20px 40px;
+    background: white;
+    justify-content: center;
+    align-items: center border-radius: 12px;
+    box-shadow: 0 0 20px red;
+}

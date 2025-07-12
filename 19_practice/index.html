@@ -4,7 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1 draggable="true">Boxes are very <span>colorful</span></h1>
+    <!-- <input class="name" />
+    <input class="age" type="number" />
+    <p class="name-desc"></p>
+    <p class="age-desc"></p> -->
+    <div class="box-container">
+      <div class="box box1" onclick="console.log('box1 clicked')">box1</div>
+      <div class="box box2" onclick="sayHi()">box2</div>
+      <div class="box box3" draggable="true">box3</div>
+    <!-- <input type="text" class="username" />
+      <p class="name"></p>
+      <button class="mybutton">Click me</button> -->
+    <!-- </div> -->
+    <!-- <form action="/potty">
+      <input name="feature" />
+      <button class="mysubmit">Submit</button>
+    </form> -->
+    <!-- <div class="green">
+      <div class="pink">
+        <div class="blue"></div>
+      </div>
+    </div> -->
+    <style>
+      .green {
+        background-color: green;
+        height: 200px;
+        width: 400px;
+      }
+      .pink {
+        background-color: lightpink;
+        height: 100px;
+        width: 300px;
+      }
+      .blue {
+        background-color: blue;
+        height: 50px;
+        width: 100px;
+      }
+    </style>
+  </body>
 </html>
