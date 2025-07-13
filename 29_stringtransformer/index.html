@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>String Transformer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>String Transformer</h2>
+
+    <textarea id="inputText" placeholder="Enter your string here..."></textarea
+    ><br />
+    <button onclick="transform('lower')">Lowercase</button>
+    <button onclick="transform('upper')">Uppercase</button>
+    <button onclick="transform('trim')">Trim</button>
+    <button onclick="transform('camel')">camelCase</button>
+    <button onclick="transform('pascal')">PascalCase</button>
+    <button onclick="transform('snake')">snake_case</button>
+    <button onclick="transform('kebab')">kebab-case</button>
+    <h3>Output:</h3>
+    <pre id="outputText">Result will appear here...</pre>
+
+    <script src="script.js"></script>
+  </body>
+</html>
