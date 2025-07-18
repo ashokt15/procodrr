@@ -5,7 +5,7 @@ const themeChanger = document.querySelector('.theme-changer')
 
 let allCountriesData
 
-fetch('https://restcountries.com/v3.1/all')
+fetch('https://restcountries.com/v3.1/all?fields=name,population,region,capital,flags,currencies')
     .then((res) => res.json())
     .then((data) => {
         renderCountries(data)
@@ -31,6 +31,7 @@ function renderCountries(data) {
               <p><b>Population: </b>${country.population.toLocaleString(
             'en-IN'
         )}</p>
+                <p><b>Currencies: </b>${Object.values(country.currencies)[0].name}</p>
               <p><b>Region: </b>${country.region}</p>
               <p><b>Capital: </b>${country.capital?.[0]}</p>
           </div>

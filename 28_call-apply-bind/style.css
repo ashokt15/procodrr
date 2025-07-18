@@ -1,0 +1,17 @@
+.box1 {
+    box-sizing: border-box;
+    height: 100px;
+    width: 259px;
+    background-color: aqua;
+    padding: 10px;
+    border: 5px solid green;
+}
+
+.box2 {
+    box-sizing: content-box;
+    height: 100px;
+    width: 259px;
+    background-color: blue;
+    padding: 10px;
+    border: 5px solid yellow;
+}

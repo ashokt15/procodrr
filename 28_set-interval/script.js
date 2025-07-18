@@ -1,5 +1,5 @@
 // function sayHi() {
-//     console.log("second bxo clicked")
+//     console.log("second box clicked")
 // }
 // function sayBox3() {
 //     console.log("box3 clicked")
